@@ -1,12 +1,21 @@
 // backend logic
-var colors = ['pink','red','orange','gold','yellow','lime','green','teal','lightblue','blue','navy','violet','black','gray','lightgray','white'];
+var colors = ['pink','violet','red','orange','gold','yellow','lime','green','teal','blue','navy','indigo','black','gray','lightgray','white'];
+var clickCt = 0;
 
 // frontend logic
 $(document).ready(function() {
   $('.mCol').click(function() {
-    var nowColor = colors[0];
-    $('body').css('background-color',nowColor);
-    colors.shift();
+    var newBGColor = colors[clickCt];
+    $('body').css('background-color',newBGColor);
+    if (clickCt>=15) {
+    clickCt = 0;
+    } else {
+    clickCt++;
+    }
+    // var colorsToo = colors.map();
+    // colorsToo.reverse();
+    // var newColor = colorsToo[0];
+    // $('body').css('color',newColor);
   });
 
   $(".col-xs-1").click(function(event) {
