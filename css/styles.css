@@ -1,0 +1,29 @@
+.boxes {
+  cursor: pointer;
+}
+
+.col-xs-1 {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  /*width: 300px;*/
+  /*border: solid black 1px;
+  border-top-left-radius:2em;
+  border-top-right-radius:2em;
+  border-bottom-right-radius:4em;
+  border-bottom-left-radius:2em;*/
+}
+
+.mCol {
+  border-right: solid black 4px;
+  border-left: solid black 4px;
+  /*background-color: lightgray;*/
+}
+
+.mRow {
+  border-top: solid black 15px;
+  border-bottom: solid black 15px;
+  /*height: 100%;
+  width: 100%;*/
+  /*background-color: lightblue;*/
+}
