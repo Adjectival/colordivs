@@ -14,8 +14,13 @@ $(document).ready(function() {
     }
     // var colorsToo = colors.map();
     // colorsToo.reverse();
-    // var newColor = colorsToo[0];
-    // $('body').css('color',newColor);
+    var newColor = colors[clickCt+2];
+    $('body').css('color',newColor);
+    $('.mCol').css('border-right','solid 4px ' + newColor + '');
+    $('.mCol').css('border-left','solid 4px ' + newColor + '');
+    $('.mCol').css('border-top','solid 4px ' + newColor + '');
+    $('.mCol').css('border-bottom','solid 4px ' + newColor + '');
+
   });
 
   $(".col-xs-1").click(function(event) {

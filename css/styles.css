@@ -2,7 +2,10 @@
   cursor: pointer;
 }
 
-
+body {
+  background-color: black;
+  color: blue;
+}
 
 .col-xs-1 {
   height: 100px;
