@@ -2,6 +2,8 @@
   cursor: pointer;
 }
 
+
+
 .col-xs-1 {
   height: 100px;
   text-align: center;
@@ -21,8 +23,8 @@
 }
 
 .mRow {
-  border-top: solid black 15px;
-  border-bottom: solid black 15px;
+  border-top: solid black 4;
+  border-bottom: solid black 4;
   /*height: 100%;
   width: 100%;*/
   /*background-color: lightblue;*/
